@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="740" viewBox="0 0 940 740" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#7C5CFF"/>
+    </marker>
+  </defs>
+  <rect width="940" height="740" fill="#ffffff"/>
+  <text x="470" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1a1a1a">CRM as Integration Hub</text>
+
+  <!-- spokes -->
+  <g stroke="#7C5CFF" stroke-width="2">
+    <line x1="470" y1="143" x2="470" y2="300" marker-end="url(#arr)"/>
+    <line x1="605" y1="263" x2="500" y2="320" marker-start="url(#arr)" marker-end="url(#arr)"/>
+    <line x1="605" y1="437" x2="500" y2="380" marker-start="url(#arr)" marker-end="url(#arr)"/>
+    <line x1="470" y1="557" x2="470" y2="400" marker-start="url(#arr)" marker-end="url(#arr)"/>
+    <line x1="335" y1="437" x2="440" y2="380" marker-start="url(#arr)" marker-end="url(#arr)"/>
+    <line x1="335" y1="263" x2="440" y2="320" marker-end="url(#arr)"/>
+  </g>
+
+  <!-- spoke boxes -->
+  <g text-anchor="middle">
+    <rect x="375" y="77" width="190" height="66" rx="8" fill="#EAF2FF" stroke="#4F8FF7" stroke-width="2"/>
+    <text x="470" y="104" font-size="14" font-weight="700" fill="#1a1a1a">Marketing Automation</text>
+    <text x="470" y="126" font-size="11.5" fill="#555">nurture, campaigns</text>
+
+    <rect x="605" y="197" width="190" height="66" rx="8" fill="#EAF2FF" stroke="#4F8FF7" stroke-width="2"/>
+    <text x="700" y="224" font-size="14" font-weight="700" fill="#1a1a1a">Sales Engagement</text>
+    <text x="700" y="246" font-size="11.5" fill="#555">sequences, dialer</text>
+
+    <rect x="605" y="437" width="190" height="66" rx="8" fill="#E7F6EC" stroke="#1FA855" stroke-width="2"/>
+    <text x="700" y="464" font-size="14" font-weight="700" fill="#1a1a1a">CPQ</text>
+    <text x="700" y="486" font-size="11.5" fill="#555">quoting, approvals</text>
+
+    <rect x="375" y="557" width="190" height="66" rx="8" fill="#E7F6EC" stroke="#1FA855" stroke-width="2"/>
+    <text x="470" y="584" font-size="14" font-weight="700" fill="#1a1a1a">Billing</text>
+    <text x="470" y="606" font-size="11.5" fill="#555">invoicing, collections</text>
+
+    <rect x="145" y="437" width="190" height="66" rx="8" fill="#FDF3E0" stroke="#E8930C" stroke-width="2"/>
+    <text x="240" y="464" font-size="14" font-weight="700" fill="#1a1a1a">Data Warehouse</text>
+    <text x="240" y="486" font-size="11.5" fill="#555">modeling, reverse ETL</text>
+
+    <rect x="145" y="197" width="190" height="66" rx="8" fill="#FDF3E0" stroke="#E8930C" stroke-width="2"/>
+    <text x="240" y="224" font-size="14" font-weight="700" fill="#1a1a1a">Enrichment / CDP</text>
+    <text x="240" y="246" font-size="11.5" fill="#555">identity, firmographics</text>
+  </g>
+
+  <!-- hub -->
+  <rect x="370" y="300" width="200" height="100" rx="12" fill="#F0ECFF" stroke="#7C5CFF" stroke-width="3"/>
+  <text x="470" y="340" text-anchor="middle" font-size="22" font-weight="700" fill="#1a1a1a">CRM</text>
+  <text x="470" y="366" text-anchor="middle" font-size="13" fill="#555">System of Record</text>
+
+  <!-- data labels -->
+  <g font-size="11.5" fill="#555">
+    <text x="482" y="222">leads, activities</text>
+    <text x="596" y="282">sequences, tasks</text>
+    <text x="596" y="418">quotes, approvals</text>
+    <text x="482" y="482">orders, invoices</text>
+    <text x="344" y="418" text-anchor="end">sync, scores back</text>
+    <text x="344" y="282" text-anchor="end">firmographics</text>
+  </g>
+
+  <text x="470" y="680" text-anchor="middle" font-size="13" fill="#666">One writer per field. Sync errors go to a queue with an owner, not an inbox nobody reads.</text>
+</svg>
