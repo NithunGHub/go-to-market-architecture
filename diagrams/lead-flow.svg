@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="460" viewBox="0 0 1240 460" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#555"/>
+    </marker>
+  </defs>
+  <rect width="1240" height="460" fill="#ffffff"/>
+  <text x="620" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1a1a1a">Lead Flow — First Touch to Working</text>
+
+  <!-- boxes: w=128 h=76, y=110, x0=24, step=152 -->
+  <g font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle">
+    <rect x="24" y="110" width="128" height="76" rx="8" fill="#EAF2FF" stroke="#4F8FF7" stroke-width="2"/>
+    <text x="88" y="140">Capture</text>
+    <rect x="176" y="110" width="128" height="76" rx="8" fill="#EAF2FF" stroke="#4F8FF7" stroke-width="2"/>
+    <text x="240" y="132">Validate +</text><text x="240" y="150">Enrich</text>
+    <rect x="328" y="110" width="128" height="76" rx="8" fill="#EAF2FF" stroke="#4F8FF7" stroke-width="2"/>
+    <text x="392" y="140">Dedupe</text>
+    <rect x="480" y="110" width="128" height="76" rx="8" fill="#FFF6E0" stroke="#E8930C" stroke-width="2"/>
+    <text x="544" y="140">Score</text>
+    <rect x="632" y="110" width="128" height="76" rx="8" fill="#FFF6E0" stroke="#E8930C" stroke-width="2"/>
+    <text x="696" y="140">Route</text>
+    <rect x="784" y="110" width="128" height="76" rx="8" fill="#FDEAF0" stroke="#E4567A" stroke-width="2"/>
+    <text x="848" y="132">SDR</text><text x="848" y="150">Queue</text>
+    <rect x="936" y="110" width="128" height="76" rx="8" fill="#FDEAF0" stroke="#E4567A" stroke-width="2"/>
+    <text x="1000" y="140">Qualify</text>
+    <rect x="1088" y="110" width="128" height="76" rx="8" fill="#E7F6EC" stroke="#1FA855" stroke-width="2"/>
+    <text x="1152" y="140">Convert</text>
+  </g>
+  <g font-size="11" fill="#555" text-anchor="middle">
+    <text x="88" y="168">forms, chat, events</text>
+    <text x="240" y="168">before scoring</text>
+    <text x="392" y="168">merge, survivorship</text>
+    <text x="544" y="168">fit + intent + engage</text>
+    <text x="696" y="168">territory / round-robin</text>
+    <text x="848" y="168">SLA &lt; 5 min</text>
+    <text x="1000" y="168">BANT / MEDDPICC</text>
+    <text x="1152" y="168">account + opp</text>
+  </g>
+  <!-- arrows -->
+  <g stroke="#555" stroke-width="2">
+    <line x1="152" y1="148" x2="172" y2="148" marker-end="url(#arr)"/>
+    <line x1="304" y1="148" x2="324" y2="148" marker-end="url(#arr)"/>
+    <line x1="456" y1="148" x2="476" y2="148" marker-end="url(#arr)"/>
+    <line x1="608" y1="148" x2="628" y2="148" marker-end="url(#arr)"/>
+    <line x1="760" y1="148" x2="780" y2="148" marker-end="url(#arr)"/>
+    <line x1="912" y1="148" x2="932" y2="148" marker-end="url(#arr)"/>
+    <line x1="1064" y1="148" x2="1084" y2="148" marker-end="url(#arr)"/>
+  </g>
+  <!-- recycle loop -->
+  <rect x="464" y="310" width="160" height="56" rx="8" fill="#ffffff" stroke="#999" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="544" y="334" text-anchor="middle" font-size="13" font-weight="700" fill="#1a1a1a">Nurture</text>
+  <text x="544" y="352" text-anchor="middle" font-size="11" fill="#555">recycle on re-engage</text>
+  <g stroke="#999" stroke-width="2" stroke-dasharray="6,4" fill="none">
+    <path d="M1000,186 V310 H624" marker-end="url(#arr)"/>
+    <path d="M544,310 V190" marker-end="url(#arr)"/>
+  </g>
+  <text x="812" y="300" text-anchor="middle" font-size="12" fill="#777">not qualified → nurture → re-score</text>
+
+  <text x="620" y="428" text-anchor="middle" font-size="13" fill="#666">Enrichment happens before scoring and routing. Duplicates are resolved before creation, not cleaned up after.</text>
+</svg>
