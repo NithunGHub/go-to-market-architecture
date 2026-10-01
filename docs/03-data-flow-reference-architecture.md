@@ -1,6 +1,20 @@
 # 03 - Data Flow Reference Architecture
 
-Reference diagrams for how data should move through a SaaS GTM stack. Rendered with Mermaid.
+Reference diagrams for how data should move through a SaaS GTM stack.
+
+## Diagram files
+
+High-level architecture diagrams live in [`../diagrams/`](../diagrams/):
+
+![GTM stack layers](../diagrams/gtm-stack-layers.svg)
+
+![Lead flow](../diagrams/lead-flow.svg)
+
+![Opportunity to cash](../diagrams/opportunity-to-cash-flow.svg)
+
+![CRM integration hub](../diagrams/crm-integration-hub.svg)
+
+The Mermaid versions below mirror the same flows in text form.
 
 ## Lead flow: first touch to working
 
