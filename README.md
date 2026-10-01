@@ -18,6 +18,15 @@ This repo is a working reference for GTM systems architecture: the layers of the
 | [02 - CRM as System of Record](docs/02-crm-as-system-of-record.md) | Why the CRM wins as source of truth, object-model thinking, and data governance |
 | [03 - Data Flow Reference Architecture](docs/03-data-flow-reference-architecture.md) | Reference diagrams: lead flow, opportunity flow, and integration patterns |
 | [04 - RevOps Operating Model](docs/04-revops-operating-model.md) | The operating cadence, metrics tree, and ownership model that keep the stack working |
+| [05 - GTM Maturity Assessment](docs/05-gtm-maturity-assessment.md) | A scored framework for grading a GTM operation across six dimensions |
+| [06 - Glossary](docs/06-glossary.md) | Working definitions for the terms used across this repo |
+
+### Templates
+
+| Template | Purpose |
+|----------|---------|
+| [Data Contract Template](templates/data-contract-template.md) | Document every integration: field map, conflict rules, error handling |
+| [Lifecycle Stage Definition Template](templates/lifecycle-definition-template.md) | Define any lifecycle stage with entry/exit criteria, SLAs, and dispositions |
 
 ## Guiding principles
 
