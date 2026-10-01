@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="740" viewBox="0 0 900 740" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#888"/>
+    </marker>
+  </defs>
+  <rect width="900" height="740" fill="#ffffff"/>
+  <text x="450" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1a1a1a">The Modern GTM Stack — Five Layers</text>
+
+  <!-- Layer 1 -->
+  <rect x="70" y="90" width="760" height="100" rx="10" fill="#EAF2FF" stroke="#4F8FF7" stroke-width="2"/>
+  <text x="100" y="128" font-size="19" font-weight="700" fill="#1a1a1a">1. Engagement</text>
+  <text x="100" y="156" font-size="13.5" fill="#444">Marketing automation, sales engagement, ads, chat, events</text>
+  <text x="800" y="130" text-anchor="end" font-size="13" font-style="italic" fill="#666">Creates and works pipeline</text>
+  <line x1="450" y1="190" x2="450" y2="204" stroke="#888" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Layer 2 -->
+  <rect x="70" y="206" width="760" height="100" rx="10" fill="#F0ECFF" stroke="#7C5CFF" stroke-width="2"/>
+  <text x="100" y="244" font-size="19" font-weight="700" fill="#1a1a1a">2. System of Record</text>
+  <text x="100" y="272" font-size="13.5" fill="#444">CRM: accounts, contacts, leads, opportunities, forecast</text>
+  <text x="800" y="246" text-anchor="end" font-size="13" font-style="italic" fill="#666">The truth about customers and pipeline</text>
+  <line x1="450" y1="306" x2="450" y2="320" stroke="#888" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Layer 3 -->
+  <rect x="70" y="322" width="760" height="100" rx="10" fill="#E7F6EC" stroke="#1FA855" stroke-width="2"/>
+  <text x="100" y="360" font-size="19" font-weight="700" fill="#1a1a1a">3. Transaction</text>
+  <text x="100" y="388" font-size="13.5" fill="#444">CPQ, contracts, billing, provisioning</text>
+  <text x="800" y="362" text-anchor="end" font-size="13" font-style="italic" fill="#666">Where pipeline becomes revenue</text>
+  <line x1="450" y1="422" x2="450" y2="436" stroke="#888" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Layer 4 -->
+  <rect x="70" y="438" width="760" height="100" rx="10" fill="#FDF3E0" stroke="#E8930C" stroke-width="2"/>
+  <text x="100" y="476" font-size="19" font-weight="700" fill="#1a1a1a">4. Data Foundation</text>
+  <text x="100" y="504" font-size="13.5" fill="#444">CDP / warehouse, enrichment, identity resolution, iPaaS</text>
+  <text x="800" y="478" text-anchor="end" font-size="13" font-style="italic" fill="#666">Invisible when it works</text>
+  <line x1="450" y1="538" x2="450" y2="552" stroke="#888" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Layer 5 -->
+  <rect x="70" y="554" width="760" height="100" rx="10" fill="#FDEAF0" stroke="#E4567A" stroke-width="2"/>
+  <text x="100" y="592" font-size="19" font-weight="700" fill="#1a1a1a">5. Intelligence</text>
+  <text x="100" y="620" font-size="13.5" fill="#444">BI, forecasting, conversation intelligence, AI agents</text>
+  <text x="800" y="594" text-anchor="end" font-size="13" font-style="italic" fill="#666">Insight, not action</text>
+
+  <text x="450" y="706" text-anchor="middle" font-size="13" fill="#666">The CRM is the system of record: every other layer feeds it or reads from it.</text>
+</svg>
